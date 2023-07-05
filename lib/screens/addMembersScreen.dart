@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:/lib/model/model.dart';
+import 'package:lldm/model/model.dart';
 
 
 class addMembersScreen extends StatefulWidget {
@@ -52,3 +52,17 @@ Widget build(BuildContext context) {
               // Añadir registro a la base de datos
 
             } , child: const Text("Agregar Miembro"))
+            
+              @override
+              State<StatefulWidget> createState() {
+                // TODO: implement createState
+                throw UnimplementedError();
+              }
+            }
+            
+              @override
+              State<StatefulWidget> createState() {
+                // TODO: implement createState
+                throw UnimplementedError();
+              }
+            }
